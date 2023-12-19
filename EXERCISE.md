@@ -116,6 +116,6 @@ Create an API service using `Go` programming language and `SQL` to serve the res
 
 - For Exercice 3 build a simple `GET` endpoint to return all the result in `JSON` format
 - Write an http test for Exercice 3 endpoint
-- For Exercice 4 build a `GET` endpoint that accepts a language in the URL and returns the result in `JSON` format
+- For Exercice 4 build a `GET` endpoint that accepts a prefered language in the URL and returns the result in `JSON` format
 
 The particient have full freedom to choose the method and the frameworks to provide the solution.
