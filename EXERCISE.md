@@ -110,18 +110,12 @@ to the parent factory. For this you can just access the factory from an entity b
 
 `$entity->factory->joinFactory($verb,$factoryToJoin)`
 
-## Part III: Typescript
+## Part III: Golang
 
-###  Bonus Exercise 5
+Create an API service using `Go` programming language and `SQL` to serve the results from Exercice 3 and Exercice 4.
 
-Create a front end application allowing to list the content of localized
-file and allow to modify or add new translations for cities and countries. It should be also possible 
-to add new language. We should be able to define new relations for a person a city or a country the same way we do via code
+- For Exercice 3 build a simple `GET` endpoint to return all the result in `JSON` format
+- Write an http test for Exercice 3 endpoint
+- For Exercice 4 build a `GET` endpoint that accepts a language in the URL and returns the result in `JSON` format
 
-`$kurt->setBrotherEntity('speak','german',array());`
-
-For this exercises you can use Laravel routes controller as API. you can launch an API server with:
-
-`php artisan serve`
-
-It will create a server http://127.0.0.1:8000 where you can create GET and POST requests.
+The particient have full freedom to choose the method and the frameworks to provide the solution.
